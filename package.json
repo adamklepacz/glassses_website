@@ -1,13 +1,14 @@
 {
+  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
   "name": "webpack-boilerplate",
   "version": "4.0.0",
   "description": "Plain webpack 4 Boilerplate with Babel, SASS and lodash on board",
-  "author": "Christoph von Gellhorn",
+  "author": "",
   "license": "MIT",
-  "homepage": "https://github.com/cvgellhorn/webpack-boilerplate",
   "scripts": {
     "dev": "cross-env NODE_ENV=dev webpack-dev-server --progress --mode development --config webpack.config.dev.js",
-    "build": "webpack -p --progress --mode production --config webpack.config.build.js"
+    "build": "webpack -p --progress --mode production --config webpack.config.build.js",
+    "deploy": "npm run build&&gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
     "cross-env": "5.2.0",
     "css-loader": "1.0.0",
     "file-loader": "2.0.0",
+    "gh-pages": "^2.0.1",
     "html-webpack-plugin": "3.2.0",
     "node-sass": "4.9.3",
     "sass-loader": "7.1.0",
