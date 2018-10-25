@@ -1,0 +1,42 @@
+/*
+ * Table of content
+ * 1. Grid setup
+ * 2. Fonts
+ * 3. Settings for the `<body>` element.
+ * 4. Settings for the links element.
+ */
+
+
+// 1. Grid setup
+$grid-gutter-width: 20px;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 375px,
+  md: 426px,
+  lg: 1024px,
+  xl: 1200px,
+  xxl: 1441px,
+  xxxl: 2560px,
+);
+
+$container-max-widths: (
+  sm: 922px,
+  md: 922px,
+  lg: 922px,
+  xl: 922px,
+);
+
+
+// 2. Fonts
+
+
+// 3. Settings for the `<body>` element.
+
+$body-bg: #fff;
+$body-color: #000;
+
+
+// 4. Settings for the links element.
+$link-hover-color: #000;
+$link-hover-decoration: none;

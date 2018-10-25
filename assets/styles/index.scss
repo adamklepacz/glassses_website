@@ -16,16 +16,17 @@
 // 2. Bootstrap components
 @import '../../node_modules/bootstrap/scss/bootstrap-grid';
 @import '../../node_modules/bootstrap/scss/bootstrap-reboot';
-
+@import '../../node_modules/bootstrap/scss/pagination';
 
 // 3. Globals
 
 
 // 4. Components
-
+@import './components/pagination';
 
 
 // 5. Modules
-
+@import './modules/header';
+@import './modules/configurator';
 
 // 6. Templates
