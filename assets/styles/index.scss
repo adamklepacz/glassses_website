@@ -19,14 +19,18 @@
 @import '../../node_modules/bootstrap/scss/pagination';
 
 // 3. Globals
-
+// Like forms, typography etc.
 
 // 4. Components
 @import './components/pagination';
+@import './components/type';
 
 
 // 5. Modules
 @import './modules/header';
 @import './modules/configurator';
+@import './modules/cta-section';
+@import './modules/products';
 
 // 6. Templates
+// Like homepage, subpage etc.

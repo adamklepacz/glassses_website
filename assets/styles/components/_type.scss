@@ -1,0 +1,47 @@
+.type {
+  margin-bottom: 16px; 
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: 0;
+  }
+  
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+
+  &__footer {
+    background-color: $grey;
+    padding: 8px 10px;
+  }
+
+  &__footer-content {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  &__checkbox {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+
+  &__info {
+    position: absolute;
+    top: -11px;
+    right: -15px;
+  }
+
+  &__info-icon {
+    height: 14px;
+  }
+
+  &__name {
+    display: block;
+    cursor: pointer;
+    margin: 0 5px 0 0;
+    font-size: 12px;
+    line-height: 1.2;
+    max-width: 120px;
+  }
+}
