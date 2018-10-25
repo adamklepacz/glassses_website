@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>
+      Webpack Boilerplate
+    </title>
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Hero section -->
+      <header class="header">
+        <a class="header__cta" href="#!">
+          <span class="header__cta-text">Neu starten</span>
+          <img src="./assets/images/icons/refresh-icon.png" alt="Refresh icon" class="header__cta-icon">
+        </a>
+
+        <h1 class="header__h1">Brillenberater</h1>
+        <h2 class="header__h2">In wenigen Schritten zur perfekte Brille</h2>
+      </header>
+      <!-- End Hero section -->
+      <div class="pagination-section">
+        <nav class="pagination__nav">
+          <ul class="pagination">
+            <li class="page-item pagination__item"><a class="page-link pagination__link" href="#">1</a></li>
+            <li class="page-item pagination__item"><a class="page-link pagination__link" href="#">2</a></li>
+            <li class="page-item pagination__item"><a class="page-link pagination__link" href="#">3</a></li>
+            <li class="page-item pagination__item"><a class="page-link pagination__link" href="#">4</a></li>
+            <li class="page-item pagination__item pagination__item--active"><a class="page-link pagination__link" href="#">5</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="configurator__h2">Welche Gesichtform haben Sie?</h2>
+        </div>
+      </div>
+
+      <!-- Configurator section -->
+      <div class="row configurator people" id="people">
+        <!-- People -->
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="type">
+            <img src="./assets/images/person1.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-1">
+                <label for="type-1" class="type__name">Eckig</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="type">
+            <img src="./assets/images/person2.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-2">
+                <label for="type-2" class="type__name">Eckig</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="type">
+            <img src="./assets/images/person1.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-3">
+                <label for="type-3" class="type__name">Eckig</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="type">
+            <img src="./assets/images/person2.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-4">
+                <label for="type-4" class="type__name">Eckig</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <!-- End people -->
+
+      </div>
+
+      <div class="row glasses d-none" id="glasses">
+        <!-- Glasses -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="type">
+            <img src="./assets/images/glasses-bg.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-1">
+                <label for="type-1" class="type__name">Lorem Dolore nisi eu veniam enim tempor.</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="type">
+            <img src="./assets/images/glasses-bg.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-2">
+                <label for="type-2" class="type__name">Lorem Dolore nisi eu veniam enim tempor.</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-0">
+          <div class="type">
+            <img src="./assets/images/glasses-bg.png" alt="Type one" class="type__img">
+            <footer class="type__footer">
+              <div class="type__footer-content">
+                <input type="checkbox" class="type__checkbox" id="type-3">
+                <label for="type-3" class="type__name">Lorem Dolore nisi eu veniam enim tempor.</label>
+                <a href="#!" class="type__info">
+                  <img src="./assets/images/icons/info.png" alt="Info icon" class="type__info-icon">
+                </a>
+              </div>
+            </footer>
+          </div>
+        </div>
+        <!-- End Glasses -->
+      </div>
+
+
+      <!-- CTA section -->
+      <div class="row cta">
+        <div class="col-12 cta__col">
+
+          <a href="#!" class="cta__link cta__prev d-none" id="cta__prev">
+            <button class="cta__button">
+              &lt;
+            </button>
+            <span class="cta__title">Zuruck</span>
+          </a>
+
+          <a href="#!" class="cta__link cta__next" id="cta__next">
+            <span class="cta__title">Weiter</span>
+            <button class="cta__button">
+              >
+            </button>
+          </a>
+        </div>
+      </div>
+      <!-- CTA section -->
+
+      <!-- Products section -->
+      <div class="row products">
+        <div class="col-12">
+          <div class="products__bar">
+            <p class="products__desc">Produkte, die Ihren Wunschen entersprechen</p>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="product-box">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <img src="./assets/images/glasses.png" alt="Glasses" class="product-box__img">
+              </div>
+              <div class="col-12 col-lg-4">
+                <span class="product-box__title">Funchal</span>
+                <ul class="product-box__list">
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="product-box__price-box">
+                  <span class="product-box__price-desc">Rahmne inkl. Glaser & Serv.</span>
+                  <span class="product-box__price">ab 39.09 $</span>
+                </div>
+                <a href="#!" class="product-box__cta">
+                  <img src="./assets/images/icons/basket-icon.png" class="product-box__cta-icon">
+                  Zum Produkt
+                  <img src="./assets/images/icons/arrow-right.png" class="product-box__cta-icon2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12">
+          <div class="product-box">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <img src="./assets/images/glasses.png" alt="Glasses" class="product-box__img">
+              </div>
+              <div class="col-12 col-lg-4">
+                <span class="product-box__title">Funchal</span>
+                <ul class="product-box__list">
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                  <li class="product-box__list-item">Feature one</li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <div class="product-box__price-box">
+                  <span class="product-box__price-desc">Rahmne inkl. Glaser & Serv.</span>
+                  <span class="product-box__price">ab 39.09 $</span>
+                </div>
+                <a href="#!" class="product-box__cta">
+                  <img src="./assets/images/icons/basket-icon.png" class="product-box__cta-icon">
+                  Zum Produkt
+                  <img src="./assets/images/icons/arrow-right.png" class="product-box__cta-icon2">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Products section -->
+    </div>
+  <script type="text/javascript" src="vendor.5891f08137676e3268db.js"></script><script type="text/javascript" src="bundle.d88eaf33fd1a27dda1b9.js"></script></body>
+
+</html>
